@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+<Content>
+  <item hdgridposterurl="http://www.sdktestinglab.com/Tutorial/images/rectanglepg.jpg" shortdescriptionline1="Rectangle Node" x="0" y="0"/>
+  <item hdgridposterurl="http://www.sdktestinglab.com/Tutorial/images/rectanglerotpg.jpg" shortdescriptionline1="Rectangle Node (Rotated)" x="0" y="1"/>
+  <item hdgridposterurl="http://www.sdktestinglab.com/Tutorial/images/labelpg.jpg" shortdescriptionline1="Label Node" x="1" y="0"/>
+  <item hdgridposterurl="http://www.sdktestinglab.com/Tutorial/images/posterpg.jpg" shortdescriptionline1="Poster Node" x="1" y="1"/>
+</Content>
