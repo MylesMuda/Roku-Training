@@ -51,6 +51,8 @@
       For Each item in JsonResponse
           itemcontent = content.createChild("ContentNode")
           itemcontent.setFields(item)
+          itemcontent.setfield("hdgridposterurl", item.image.href)
+          itemcontent.setfield("shortdescriptionline1", item.title)
       End For
 
     m.top.content = content
