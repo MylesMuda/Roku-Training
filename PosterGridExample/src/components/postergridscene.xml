@@ -19,7 +19,7 @@
 
       m.readPosterGridTask = createObject("roSGNode", "ContentReader")
       ' m.readPosterGridTask.contenturi = "http://www.sdktestinglab.com/Tutorial/content/rendergridps.xml"
-      m.readPosterGridTask.contenturi = "pkg:/components/rendergridps.xml"
+      m.readPosterGridTask.contenturi = "pkg:/images/rendergridps.xml"
       m.readPosterGridTask.observeField("content", "showpostergrid")
       m.readPosterGridTask.control = "RUN"
     end sub
