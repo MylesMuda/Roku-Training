@@ -1,5 +1,5 @@
 module.exports = {
-    ip: '10.63.120.72',
+    ip: '10.63.120.51',
     port: '8060',
     runner: 'deeplink', // build | test | deeplink
     src_folder: 'src',

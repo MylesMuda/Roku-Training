@@ -38,6 +38,7 @@ sub getJsonContent()
           itemcontent.setFields(item)
           itemcontent.setfield("hdgridposterurl", item.image.href)
           itemcontent.setfield("shortdescriptionline1", item.title)
+          itemcontent.setfield("stream", item.stream.href)
       End For
 
     m.top.content = content
