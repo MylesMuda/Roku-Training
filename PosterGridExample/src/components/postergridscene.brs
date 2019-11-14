@@ -4,6 +4,7 @@ sub init()
     m.top.setFocus(true)
 
     m.postergrid = m.top.findNode("examplePosterGrid")
+    m.Video = m.top.findNode("Video")
 
     m.postergrid.translation = [ 130, 160 ]
 
@@ -12,8 +13,20 @@ sub init()
     m.readPosterGridTask.contenturi = "pkg:/images/rendergridps.xml"
     m.readPosterGridTask.observeField("content", "showpostergrid")
     m.readPosterGridTask.control = "RUN"
+    m.postergrid.observeField("itemSelected", "playContent")
 end sub
 
 sub showpostergrid()
     m.postergrid.content = m.readPosterGridTask.content
+end sub
+
+sub playContent()
+    selected = m.postergrid.itemSelected
+    selectedVideo = m.postergrid.content.getChild(selected)
+    print selectedVideo.shortdescriptionline1
+    m.Video.content = selectedVideo
+    print m.Video.content.url
+    m.Video.visible = "true"
+    m.Video.control = "play"
+    m.Video.setFocus(true)
 end sub

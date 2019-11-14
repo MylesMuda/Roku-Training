@@ -16,6 +16,13 @@
       numRows = "5" 
       itemSpacing = "[ 20, 20 ]" />
 
+    <Video
+      id="Video"
+      width="auto"
+      height="auto"
+      translation="[0,0]"
+      visible="false"/>
+
   </children>
 
 </component>

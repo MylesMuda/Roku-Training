@@ -1,5 +1,6 @@
 sub init()
       m.top.functionName = "getJsonContent"
+      'm.Video = m.top.findNode("Video")
 end sub
 
 sub getcontent()
@@ -35,11 +36,14 @@ sub getJsonContent()
 
       For Each item in JsonResponse
           itemcontent = content.createChild("ContentNode")
-          itemcontent.setFields(item)
+          'itemcontent.setFields(item)
           itemcontent.setfield("hdgridposterurl", item.image.href)
           itemcontent.setfield("shortdescriptionline1", item.title)
-          itemcontent.setfield("stream", item.stream.href)
+          itemcontent.setfield("url", item.stream.href)
+          'itemcontent.setfield("streamFormat", item.stream.type)
+          'itemcontent.setfield("streamFormat", "ism")
       End For
 
     m.top.content = content
+    'm.Video.content = content
 end sub
