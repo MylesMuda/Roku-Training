@@ -16,12 +16,19 @@
       numRows = "5" 
       itemSpacing = "[ 20, 20 ]" />
 
+    <Overhang
+    showClock="true"
+    title="Sample VOD Application" />
+
     <Video
       id="Video"
       width="auto"
       height="auto"
       translation="[0,0]"
       visible="false"/>
+
+    <PinDialogExample 
+      id="PinDialog" />
 
   </children>
 

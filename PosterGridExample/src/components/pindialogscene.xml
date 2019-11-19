@@ -2,7 +2,7 @@
 
 <!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
 
-<component name = "PinDialogExample" extends = "Scene" >
+<component name = "PinDialogExample" extends = "Group" >
 
   <script type = "text/brightscript" uri="pkg:/components/pindialogscene.brs" />
 

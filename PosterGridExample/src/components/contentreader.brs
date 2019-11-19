@@ -1,5 +1,6 @@
 sub init()
       m.top.functionName = "getJsonContent"
+      'm.top.functionName = "getcontent"
       'm.Video = m.top.findNode("Video")
 end sub
 

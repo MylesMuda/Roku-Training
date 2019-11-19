@@ -3,8 +3,13 @@ sub init()
 
     m.top.setFocus(true)
 
+    m.pindialog = m.top.findNode("PinDialogExample")
     m.postergrid = m.top.findNode("examplePosterGrid")
     m.Video = m.top.findNode("Video")
+
+    m.pindialog = createObject("roSGNode", "PinDialogExample")
+    m.pindialog.visible = true
+    m.pindialog.setFocus(true)
 
     m.postergrid.translation = [ 130, 160 ]
 

@@ -1,5 +1,5 @@
 sub init()
-      m.top.backgroundURI = "pkg:/images/mountains.jpg"
+      'm.top.backgroundURI = "pkg:/images/mountains.jpg"
 
       example = m.top.findNode("instructLabel")
 
